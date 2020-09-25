@@ -1,0 +1,78 @@
+.content {
+	background-image: url(index.jpg) ;
+	background-color: rgba(255,255,255,0.6) ;
+	background-blend-mode: lighten ; 
+	background-repeat: no-repeat;
+	background-size: 100% 100% ;
+	font-family: 'Quicksand' ;
+	font-weight: 900;
+	font-size: 16pt;
+	padding: 20px;
+	margin: 2cm;
+}
+
+h1 {
+	font-family: 'Sofia';
+	font-size: 34pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+p {
+	font-family: 'Quicksand';
+}
+
+.container{
+	margin-top: 1cm;
+	margin-bottom: 3cm;
+}
+
+#more {display: none;}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#yellow:hover {background-color: #FFCE47;}
+#red:hover {background-color: #FF5C61;} 
+#green:hover {background-color: #8ECE27;}
+#purple:hover {background-color: #6A4C94;}
+#blue:hover {background-color: #4AABE8;}
+
+
+/*ABOUT*/
+.bg {
+  background-image: url("index.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow:scroll;
+  background-size: 100% 100%;
+  background-color: rgba(255,255,255,0.6) ;
+  background-blend-mode: lighten ; 
+}
+
+footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #000000;
+   color: white;
+   text-align: center;
+}
+
+
+/*Icons made by <a href="https://www.flaticon.com/authors/photo3idea-studio" title="photo3idea_studio">photo3idea_studio</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
